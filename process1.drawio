@@ -1,20 +1,20 @@
-<mxfile host="www.draw.io" modified="2019-11-26T14:58:40.828Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="ScXMTTcRS55uhbwj4h8n" version="12.3.0" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-27T05:30:38.886Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="pQVwKm2BwTYT-J9UOBnL" version="12.3.0" type="github" pages="1">
   <diagram id="IIl_K_A8DQng9myRE2v2" name="第 1 页">
-    <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1695" dy="1619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="rMp8nfnkgMo6waxgORl2-2" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="110" y="190" width="480" height="360" as="geometry"/>
+        <mxCell id="rMp8nfnkgMo6waxgORl2-2" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;fillColor=#dae8fc;strokeColor=#6c8ebf;noLabel=0;flipV=0;flipH=0;direction=east;perimeter=trianglePerimeter;recursiveResize=1;container=0;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="-40" width="710" height="360" as="geometry"/>
         </mxCell>
-        <mxCell id="rMp8nfnkgMo6waxgORl2-3" value="Lane 1" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#b0e3e6;strokeColor=#0e8088;swimlaneLine=1;" vertex="1" parent="rMp8nfnkgMo6waxgORl2-2">
-          <mxGeometry x="20" width="460" height="120" as="geometry"/>
+        <mxCell id="rMp8nfnkgMo6waxgORl2-3" value="Lane 1" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#b0e3e6;strokeColor=#0e8088;swimlaneLine=1;perimeter=backbonePerimeter;" vertex="1" parent="rMp8nfnkgMo6waxgORl2-2">
+          <mxGeometry x="20" width="690" height="120" as="geometry"/>
         </mxCell>
         <mxCell id="rMp8nfnkgMo6waxgORl2-6" value="Task" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="rMp8nfnkgMo6waxgORl2-3">
           <mxGeometry x="130" y="30" width="70" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="rMp8nfnkgMo6waxgORl2-9" value="User" style="html=1;whiteSpace=wrap;rounded=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="rMp8nfnkgMo6waxgORl2-3">
-          <mxGeometry x="270" y="30" width="100" height="50" as="geometry"/>
+        <mxCell id="rMp8nfnkgMo6waxgORl2-9" value="User" style="html=1;whiteSpace=wrap;rounded=1;strokeColor=#6c8ebf;fillColor=#dae8fc;autosize=0;treeFolding=0;treeMoving=0;absoluteArcSize=0;arcSize=16;" vertex="1" parent="rMp8nfnkgMo6waxgORl2-3">
+          <mxGeometry x="295" y="30" width="105" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="rMp8nfnkgMo6waxgORl2-10" value="" style="html=1;shape=mxgraph.bpmn.user_task;outlineConnect=0;" vertex="1" parent="rMp8nfnkgMo6waxgORl2-9">
           <mxGeometry width="14" height="14" relative="1" as="geometry">
@@ -27,19 +27,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rMp8nfnkgMo6waxgORl2-4" value="Lane 2" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="rMp8nfnkgMo6waxgORl2-2">
-          <mxGeometry x="20" y="120" width="460" height="120" as="geometry"/>
+          <mxGeometry x="20" y="120" width="690" height="120" as="geometry"/>
         </mxCell>
         <mxCell id="rMp8nfnkgMo6waxgORl2-7" value="Task" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#F19C99;" vertex="1" parent="rMp8nfnkgMo6waxgORl2-4">
           <mxGeometry x="125" y="30" width="80" height="50" as="geometry"/>
         </mxCell>
+        <mxCell id="rMp8nfnkgMo6waxgORl2-15" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;background=gateway;outlineConnect=0;outline=none;symbol=exclusiveGw;strokeColor=#3333FF;fillColor=none;" vertex="1" parent="rMp8nfnkgMo6waxgORl2-4">
+          <mxGeometry x="260" y="35" width="30" height="30" as="geometry"/>
+        </mxCell>
         <mxCell id="rMp8nfnkgMo6waxgORl2-5" value="Lane 3" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="rMp8nfnkgMo6waxgORl2-2">
-          <mxGeometry x="20" y="240" width="460" height="120" as="geometry"/>
+          <mxGeometry x="20" y="240" width="690" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="rMp8nfnkgMo6waxgORl2-13" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=standard;symbol=timer;strokeColor=#3333FF;fillColor=none;" vertex="1" parent="rMp8nfnkgMo6waxgORl2-5">
+          <mxGeometry x="70" y="40" width="30" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="rMp8nfnkgMo6waxgORl2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="rMp8nfnkgMo6waxgORl2-2" source="rMp8nfnkgMo6waxgORl2-6" target="rMp8nfnkgMo6waxgORl2-7">
           <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="rMp8nfnkgMo6waxgORl2-13" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=standard;symbol=timer;strokeColor=#3333FF;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="650" y="320" width="30" height="30" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
